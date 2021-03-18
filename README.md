@@ -45,7 +45,7 @@ set.
       
 #### Note 
 
-This project was done as a Software COnstruction course Project.
+This project was done as a Software Construction course Project.
 
 For more datails about project, refer the Project_Description.pdf
 
