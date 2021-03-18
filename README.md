@@ -1,1 +1,1 @@
-# Fractal-Visualization
+# Fractals-Visualization
