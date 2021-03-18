@@ -35,13 +35,13 @@ set.
   Here are two exapmles to show how to run the application.
   (Note that Fractal is the name of the application : Fractal.java)
   
-  - java Fractal Mandelbrot -0.5 0.5 -0.1 1 1000
+    java Fractal Mandelbrot -0.5 0.5 -0.1 1 1000
       
-      This means the region of interest for the image wil be from -0.5< real < 0.5 and -0.1 < complex < 1 and for each point it'll run 1000 iterations before deciding that it is in the set.
+This means the region of interest for the image wil be from -0.5< real < 0.5 and -0.1 < complex < 1 and for each point it'll run 1000 iterations before deciding that it is in the set.
 
-  - java Fractal Julia -0.5 0.156 1000
+    java Fractal Julia -0.5 0.156 1000
   
-      This means application will plot the Julia set for C = -0.5 + 0.156i with 1000 iterations for each point. You may take the region of interest in the complex plan as 1 < real part < 1 and -1< complex part<1 which cannot be modified.
+This means application will plot the Julia set for C = -0.5 + 0.156i with 1000 iterations for each point. You may take the region of interest in the complex plan as 1 < real part < 1 and -1< complex part<1 which cannot be modified.
       
 #### Note 
 
