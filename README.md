@@ -5,6 +5,17 @@
   
   Fractals are infinity many self-similar shapes formed by some simple mathematical computations.The computation varies from fractal set to set but are generally based on complex numbers.
   
+  - The Mandelbrot Set
+  
+  In mathematics Mandelbrot set is defined as the set of **complex numbers C** such
+that: Z<sub>n+1</sub> = Z<sup>2</sup><sub>n</sub> + C , starting with Z<sub>0</sub> = 0 remains bounded when n reach infinity. In other words if for some C the above equation remains bounded for after many iterations then that C is in the Mandelbrot
+set.
+
+  - The Julia Set
+
+  The Julia set is similar to the Mandelbrot set in that it uses the same equation Z<sub>n+1</sub> = Z<sup>2</sup><sub>n</sub> + C, but Z<sub>0</sub> is the point in the complex plane corresponding to the pixel and **C is a constant**.
+    
+  
 ### Program
   - Program accepts user inputs as command line arguments; at least one which would specify what set to plot. 
   - If the set selected is **Mandelbrot** the user should give either 0, 4 or 5 arguments. 
